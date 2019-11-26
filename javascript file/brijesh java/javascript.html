@@ -1,0 +1,57 @@
+<html>
+<body>
+
+<h2>my javascript programe</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<br>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:50px">
+<br>
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<br>
+
+<h2> I have Date and time </h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<br>
+<h2>I Have some thing for you </h2>
+
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo1" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.display='block'">Click Me!</button>
+<br>
+<h2>I am an Invisibal!  </h2>
+
+<p id="demo2">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me! </button>
+<button type="button" onclick="document.getElementById('demo2').style.display='block'">I am back</button>
+<br> 
+<h2>I am Bigger and Smaller!</h2>
+
+<p id="demo3">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.fontSize='35px'">Click Me! I am Big </button>
+<button type="button" onclick="document.getElementById('demo3').style.fontSize='15px'">Click Me! I am Small</button>
+<br>
+<br>
+<form>
+	<input type="button" value="click me!"
+	onclick="window.alert('Your Mother,Father Bad Manners');">
+	</form> 
+
+
+
+</body>
+</html>
